@@ -1,0 +1,241 @@
+{
+  "model_name": "google/paligemma-3b-pt-224",
+  "dataset_dir": "/data1/ai24mtech02001/projects/visual_steering/data",
+  "tasks": [
+    "count",
+    "color",
+    "shape"
+  ],
+  "layers": {
+    "count": [
+      "language_model.layers.0",
+      "language_model.layers.1",
+      "language_model.layers.2",
+      "language_model.layers.3",
+      "language_model.layers.4",
+      "language_model.layers.5",
+      "language_model.layers.6",
+      "language_model.layers.7",
+      "language_model.layers.8",
+      "language_model.layers.9",
+      "language_model.layers.10",
+      "language_model.layers.11",
+      "language_model.layers.12",
+      "language_model.layers.13",
+      "language_model.layers.14",
+      "language_model.layers.15",
+      "language_model.layers.16",
+      "language_model.layers.17"
+    ],
+    "color": [
+      "language_model.layers.0",
+      "language_model.layers.1",
+      "language_model.layers.2",
+      "language_model.layers.3",
+      "language_model.layers.4",
+      "language_model.layers.5",
+      "language_model.layers.6",
+      "language_model.layers.7",
+      "language_model.layers.8",
+      "language_model.layers.9",
+      "language_model.layers.10",
+      "language_model.layers.11",
+      "language_model.layers.12",
+      "language_model.layers.13",
+      "language_model.layers.14",
+      "language_model.layers.15",
+      "language_model.layers.16",
+      "language_model.layers.17"
+    ],
+    "shape": [
+      "language_model.layers.0",
+      "language_model.layers.1",
+      "language_model.layers.2",
+      "language_model.layers.3",
+      "language_model.layers.4",
+      "language_model.layers.5",
+      "language_model.layers.6",
+      "language_model.layers.7",
+      "language_model.layers.8",
+      "language_model.layers.9",
+      "language_model.layers.10",
+      "language_model.layers.11",
+      "language_model.layers.12",
+      "language_model.layers.13",
+      "language_model.layers.14",
+      "language_model.layers.15",
+      "language_model.layers.16",
+      "language_model.layers.17"
+    ]
+  },
+  "vector_shape": {
+    "count": {
+      "language_model.layers.0": [
+        2048
+      ],
+      "language_model.layers.1": [
+        2048
+      ],
+      "language_model.layers.2": [
+        2048
+      ],
+      "language_model.layers.3": [
+        2048
+      ],
+      "language_model.layers.4": [
+        2048
+      ],
+      "language_model.layers.5": [
+        2048
+      ],
+      "language_model.layers.6": [
+        2048
+      ],
+      "language_model.layers.7": [
+        2048
+      ],
+      "language_model.layers.8": [
+        2048
+      ],
+      "language_model.layers.9": [
+        2048
+      ],
+      "language_model.layers.10": [
+        2048
+      ],
+      "language_model.layers.11": [
+        2048
+      ],
+      "language_model.layers.12": [
+        2048
+      ],
+      "language_model.layers.13": [
+        2048
+      ],
+      "language_model.layers.14": [
+        2048
+      ],
+      "language_model.layers.15": [
+        2048
+      ],
+      "language_model.layers.16": [
+        2048
+      ],
+      "language_model.layers.17": [
+        2048
+      ]
+    },
+    "color": {
+      "language_model.layers.0": [
+        2048
+      ],
+      "language_model.layers.1": [
+        2048
+      ],
+      "language_model.layers.2": [
+        2048
+      ],
+      "language_model.layers.3": [
+        2048
+      ],
+      "language_model.layers.4": [
+        2048
+      ],
+      "language_model.layers.5": [
+        2048
+      ],
+      "language_model.layers.6": [
+        2048
+      ],
+      "language_model.layers.7": [
+        2048
+      ],
+      "language_model.layers.8": [
+        2048
+      ],
+      "language_model.layers.9": [
+        2048
+      ],
+      "language_model.layers.10": [
+        2048
+      ],
+      "language_model.layers.11": [
+        2048
+      ],
+      "language_model.layers.12": [
+        2048
+      ],
+      "language_model.layers.13": [
+        2048
+      ],
+      "language_model.layers.14": [
+        2048
+      ],
+      "language_model.layers.15": [
+        2048
+      ],
+      "language_model.layers.16": [
+        2048
+      ],
+      "language_model.layers.17": [
+        2048
+      ]
+    },
+    "shape": {
+      "language_model.layers.0": [
+        2048
+      ],
+      "language_model.layers.1": [
+        2048
+      ],
+      "language_model.layers.2": [
+        2048
+      ],
+      "language_model.layers.3": [
+        2048
+      ],
+      "language_model.layers.4": [
+        2048
+      ],
+      "language_model.layers.5": [
+        2048
+      ],
+      "language_model.layers.6": [
+        2048
+      ],
+      "language_model.layers.7": [
+        2048
+      ],
+      "language_model.layers.8": [
+        2048
+      ],
+      "language_model.layers.9": [
+        2048
+      ],
+      "language_model.layers.10": [
+        2048
+      ],
+      "language_model.layers.11": [
+        2048
+      ],
+      "language_model.layers.12": [
+        2048
+      ],
+      "language_model.layers.13": [
+        2048
+      ],
+      "language_model.layers.14": [
+        2048
+      ],
+      "language_model.layers.15": [
+        2048
+      ],
+      "language_model.layers.16": [
+        2048
+      ],
+      "language_model.layers.17": [
+        2048
+      ]
+    }
+  }
+}

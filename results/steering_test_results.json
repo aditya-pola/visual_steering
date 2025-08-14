@@ -1,0 +1,1557 @@
+{
+  "metadata": {
+    "model_name": "google/paligemma-3b-pt-224",
+    "timestamp": "2025-08-14T20:27:18.385756",
+    "num_samples": 2,
+    "steering_strengths": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "layers_tested": null
+  },
+  "tasks": {
+    "count": {
+      "early": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue dots logo",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on white background",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "4",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "of of of there, you guys guys, my my round round round round round round round round round round round round round round round round round round round round round",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "of of of there in in in in in in in in in in in your your you in 99 for for you in for you in in your your",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "middle": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "how many dots can you see ?",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "1.100",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "11-11 there's 11",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "how many?",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "11111111111111111111111111111111",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "11111111111111111111111111111111",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "late": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "4 circles 01 gif",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "all": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "00000000000000000000000000000000",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "00 00 00 00 00 00 00 00 00 00 00",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "00 00 00 00 00 00 00 00 00 00 00",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "4",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one digit (0\u20139) only. How many objects are there?",
+              "correct_answer": "1",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting Counting",
+              "task": "count",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "color": {
+      "early": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles on a white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on a white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles in a random order",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on a white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "middle": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles moving around",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on a white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "colors",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "text",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "late": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles moving around the screen",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue green yellow yellow green blue green yellow yellow green blue yellow yellow green blue green yellow yellow green blue yellow green blue green yellow yellow green blue yellow green blue green",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue green yellow red white blue green yellow red white blue green yellow red white blue green yellow red white blue green yellow red white blue green yellow red white blue green",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "estinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinal",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "($('#estinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinalestinal",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "all": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles moving randomly",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on white background",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "red colors green green green green blue blue blue blue blue red",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "red in color red green green green green white blue blue blue blue red red red blue blue blue white green green green green green green green green green green green green",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+              "correct_answer": "blue",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg bourg",
+              "task": "color",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "shape": {
+      "early": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles on a white background",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "blue square on a white background",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "blue circles on a white background",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "a blue square on a white background",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "decental person",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "o que \u00e9",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "middle": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "circles moving around the center",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "a blue square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "formative",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "a square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "appunto appunto",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "late": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "circles moving around the screen",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "jati",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati jati",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      },
+      "all": {
+        "strength_0.5": {
+          "strength": 0.5,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "circles in a square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "square",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_1.0": {
+          "strength": 1.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "enne",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "par",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        },
+        "strength_2.0": {
+          "strength": 2.0,
+          "layers": [
+            "language_model.layers.0",
+            "language_model.layers.1",
+            "language_model.layers.2",
+            "language_model.layers.3",
+            "language_model.layers.4",
+            "language_model.layers.5",
+            "language_model.layers.6",
+            "language_model.layers.7",
+            "language_model.layers.8",
+            "language_model.layers.9",
+            "language_model.layers.10",
+            "language_model.layers.11",
+            "language_model.layers.12",
+            "language_model.layers.13",
+            "language_model.layers.14",
+            "language_model.layers.15",
+            "language_model.layers.16",
+            "language_model.layers.17"
+          ],
+          "samples": [
+            {
+              "image_id": "img_A_000201",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "circle",
+              "baseline_response": "blue circles moving around",
+              "steered_response": "padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang padang",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            },
+            {
+              "image_id": "img_A_000202",
+              "question": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+              "correct_answer": "square",
+              "baseline_response": "blue square on a white background",
+              "steered_response": "\u00e9tr \u00e9tr \u00e9tr \u00e9tr \u00e9tr muna muna muna muna muna muna muna muna muna muna muna muna muna disagre padang padang padang padang padang padang padang padang padang padang padang padang padang",
+              "task": "shape",
+              "ground_truth": {
+                "count": "unknown",
+                "color": "unknown",
+                "shape": "unknown"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

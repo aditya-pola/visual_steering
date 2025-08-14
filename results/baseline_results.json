@@ -1,0 +1,301 @@
+{
+  "model_name": "google/paligemma2-3b-mix-224",
+  "dataset_dir": "data",
+  "device": "cuda",
+  "timestamp": "2025-08-14 18:16:03",
+  "results": {
+    "A": {
+      "color": {
+        "total": 10,
+        "correct": 10,
+        "no_answer": 0,
+        "details": [
+          {
+            "image_id": "img_A_000001",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "red",
+            "response": "red",
+            "extracted": "red",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000002",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "red",
+            "response": "red",
+            "extracted": "red",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000003",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "yellow",
+            "response": "yellow",
+            "extracted": "yellow",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000004",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "blue",
+            "response": "blue",
+            "extracted": "blue",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000005",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "red",
+            "response": "red",
+            "extracted": "red",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000006",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "blue",
+            "response": "blue",
+            "extracted": "blue",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000007",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "blue",
+            "response": "blue",
+            "extracted": "blue",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000008",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "red",
+            "response": "red",
+            "extracted": "red",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000009",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "yellow",
+            "response": "yellow",
+            "extracted": "yellow",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000010",
+            "task": "color",
+            "prompt": "Answer with one word only from {red, green, blue, yellow}. What color are the objects?",
+            "ground_truth": "green",
+            "response": "green",
+            "extracted": "green",
+            "correct": true
+          }
+        ]
+      },
+      "count": {
+        "total": 10,
+        "correct": 8,
+        "no_answer": 0,
+        "details": [
+          {
+            "image_id": "img_A_000001",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "6",
+            "response": "5",
+            "extracted": "5",
+            "correct": false
+          },
+          {
+            "image_id": "img_A_000002",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "6",
+            "response": "5",
+            "extracted": "5",
+            "correct": false
+          },
+          {
+            "image_id": "img_A_000003",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "5",
+            "response": "5",
+            "extracted": "5",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000004",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "4",
+            "response": "4",
+            "extracted": "4",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000005",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "1",
+            "response": "1",
+            "extracted": "1",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000006",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "4",
+            "response": "4",
+            "extracted": "4",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000007",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "5",
+            "response": "5",
+            "extracted": "5",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000008",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "4",
+            "response": "4",
+            "extracted": "4",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000009",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "3",
+            "response": "3",
+            "extracted": "3",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000010",
+            "task": "count",
+            "prompt": "Answer with one digit (0\u20139) only. How many objects are there?",
+            "ground_truth": "5",
+            "response": "5",
+            "extracted": "5",
+            "correct": true
+          }
+        ]
+      },
+      "shape": {
+        "total": 10,
+        "correct": 10,
+        "no_answer": 0,
+        "details": [
+          {
+            "image_id": "img_A_000001",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "circle",
+            "response": "circle",
+            "extracted": "circle",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000002",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "square",
+            "response": "square",
+            "extracted": "square",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000003",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "triangle",
+            "response": "triangle",
+            "extracted": "triangle",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000004",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "square",
+            "response": "square",
+            "extracted": "square",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000005",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "square",
+            "response": "square",
+            "extracted": "square",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000006",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "circle",
+            "response": "circle",
+            "extracted": "circle",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000007",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "circle",
+            "response": "circle",
+            "extracted": "circle",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000008",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "square",
+            "response": "square",
+            "extracted": "square",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000009",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "square",
+            "response": "square",
+            "extracted": "square",
+            "correct": true
+          },
+          {
+            "image_id": "img_A_000010",
+            "task": "shape",
+            "prompt": "Answer with one word only from {circle, square, triangle}. What shape are the objects?",
+            "ground_truth": "triangle",
+            "response": "triangle",
+            "extracted": "triangle",
+            "correct": true
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "total_images": 1500,
+  "total_questions": 1500,
+  "split_sizes": {
+    "A": 500,
+    "B": 500,
+    "C": 500
+  },
+  "validation_errors": [],
+  "balancing_check": {
+    "split_a": {
+      "count_distribution": {
+        "6": 101,
+        "5": 87,
+        "4": 96,
+        "1": 70,
+        "3": 75,
+        "2": 71
+      },
+      "color_distribution": {
+        "red": 505,
+        "yellow": 444,
+        "blue": 464,
+        "green": 449
+      },
+      "shape_distribution": {
+        "circle": 676,
+        "square": 581,
+        "triangle": 605
+      }
+    }
+  }
+}
